@@ -45,7 +45,8 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
-**2. Configure the Language Model (Choose one)**
+**2. Configure the Language Model (Choose one).**
+
 **Option A: Use API key**
 Set your API key as an environment variable. Replace your_key_here with your actual key.
 ```bash
