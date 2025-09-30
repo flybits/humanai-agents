@@ -8,14 +8,14 @@ The code runs a social simulation of AI agents participating in a mayoral electi
 ## How ID-RAG Works
 Standard generative agents can suffer from "persona drift" over long interactions. ID-RAG addresses this by giving agents an explicit, structured sense of self, ensuring their actions are always informed by their core identity.
 
-![ID-RAG Agent Architecture](assets/imgs/hai-architecture.png)
+![Human-AI Agent Architecture](assets/imgs/hai-architecture.png)
 
 - Identity as a First-Class Module: Agents maintain an explicit identity knowledge graph called a **Chronicle** (containing values, beliefs, traits), which is kept separate from their episodic memory.
 - Identity Retrieval Before Acting: Before making a decision, the agent queries its Chronicle to retrieve the most relevant identity facts and merges them into its working memory.
 - Better Long-Horizon Coherence: In simulations, this retrieval mechanism reduces persona drift, improves the alignment of actions with the agent's persona, and helps the simulation converge on stable social structures more quickly.
 
 ## The Simulation: Riverbend Mayoral Election
-The simulation features 5 AI agents (2 ID-RAG agents and 3 baseline generative agents) in the fictional town of Riverbend. As they interact during a mayoral election, you can run experiments to observe how their underlying architecture affects their behavioral consistency.
+The simulation features 5 AI agents (2 Human-AI Agents and 3 baseline generative agents) in the fictional town of Riverbend. As they interact during a mayoral election, you can run experiments to observe how their underlying architecture affects their behavioral consistency.
 
 ![Chart showing experimental results](assets/imgs/experimental-results.png)
 
