@@ -1,9 +1,9 @@
 # Human-AI Agents Enabled with ID-RAG
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-📄 Official code for our paper "ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents" (arXiv pre-print coming soon). Our work is accepted at LLAIS 2025: Workshop on LLM-Based Agents for Intelligent Systems, at ECAI 2025.
+📄 Official code for our paper "ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents" ([see our arXiv preprint](https://arxiv.org/abs/2509.25299)). Our work is accepted at LLAIS 2025: Workshop on LLM-Based Agents for Intelligent Systems, at ECAI 2025.
 
-The code runs a social simulation of AI agents participating in a mayoral election. It implements and compares our novel ID-RAG architecture against baseline models to show how an explicit identity module can significantly improve an agent's long-term persona coherence.
+The code runs a social simulation of AI agents participating in a mayoral election. It implements and compares Human-AI Agents using ID-RAG against baseline generative agents to show how an explicit identity module can significantly improve an agent's long-term persona coherence.
 
 ## How ID-RAG Works
 Standard generative agents can suffer from "persona drift" over long interactions. ID-RAG addresses this by giving agents an explicit, structured sense of self, ensuring their actions are always informed by their core identity.
@@ -113,11 +113,13 @@ This work builds on two foundational projects in the field of generative agent s
 If you use this work, please cite:
 
 ```
-@inproceedings{platnick2025idrag,
-  title     = {ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents},
-  author    = {Platnick, Daniel and Bengueddache, Mohamed E. and Alirezaie, Marjan and Newman, Dava J. and Pentland, Alex and Rahnama, Hossein},
-  booktitle = {LLAIS 2025: Workshop on LLM-Based Agents for Intelligent Systems (at ECAI 2025)},
-  year      = {2025},
-  note      = {Accepted papers: https://llias2025.web.app/accepted-papers}
+@misc{platnick2025idrag,
+      title={ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents}, 
+      author={Daniel Platnick and Mohamed E. Bengueddache and Marjan Alirezaie and Dava J. Newman and Alex ''Sandy'' Pentland and Hossein Rahnama},
+      year={2025},
+      eprint={2509.25299},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.25299}, 
 }
 ```
